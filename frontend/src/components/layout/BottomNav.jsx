@@ -1,12 +1,11 @@
 import { NavLink } from 'react-router-dom'
-import { FiBarChart2, FiCreditCard, FiGrid, FiPieChart, FiUser } from 'react-icons/fi'
+import { FiCreditCard, FiGrid, FiPieChart, FiTag } from 'react-icons/fi'
 
 const navItems = [
   { label: 'Home', path: '/dashboard', icon: FiGrid },
   { label: 'Transactions', path: '/transactions', icon: FiCreditCard },
-  { label: 'Analytics', path: '/budgets', icon: FiBarChart2 },
-  { label: 'Budget', path: '/budgets', icon: FiPieChart },
-  { label: 'Profile', path: '/categories', icon: FiUser },
+  { label: 'Budgets', path: '/budgets', icon: FiPieChart },
+  { label: 'Categories', path: '/categories', icon: FiTag },
 ]
 
 export default function BottomNav() {
